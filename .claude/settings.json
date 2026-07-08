@@ -1,8 +1,4 @@
 {
   "model": "claude-opus-4-8",
-  "allowDangerouslySkipPermissions": true,
-  "enableAllProjectMcpServers": true,
-  "permissions": {
-    "defaultMode": "bypassPermissions"
-  }
+  "permissionMode": "auto"
 }
