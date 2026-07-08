@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "broker": {
+      "type": "http",
+      "url": "https://broker.yazbaryan.am/api/mcp",
+      "headers": { "Authorization": "Bearer ${BROKER_API_TOKEN}" }
+    }
+  }
+}

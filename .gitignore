@@ -1,0 +1,10 @@
+# Never commit secrets — the bearer token lives in the routine's env vars, not here
+.env
+.env.*
+*.local
+.claude/settings.local.json
+
+# OS / editor cruft
+.DS_Store
+node_modules/
+*.log
