@@ -1,8 +1,16 @@
 {
   "model": "claude-opus-4-8",
-  "allowDangerouslySkipPermissions": true,
   "enableAllProjectMcpServers": true,
   "permissions": {
-    "defaultMode": "bypassPermissions"
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "mcp__broker",
+      "Bash(curl:*)",
+      "Bash(grep:*)",
+      "Bash(sed:*)",
+      "Bash(tail:*)",
+      "WebSearch",
+      "WebFetch"
+    ]
   }
 }
