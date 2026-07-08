@@ -14,9 +14,9 @@ NOT hardcoded.
   the `BROKER_API_TOKEN` environment variable. Call the `broker.*` MCP tools
   directly (`get_context`, `start_run`, `analyze_instrument`, `place_order`,
   `cancel_order`, `set_stop_loss`, `finish_run`).
-- If the MCP tools are not available for any reason, fall back to `curl` against
-  `https://broker.yazbaryan.am/api/mcp` using `$BROKER_API_TOKEN` as the bearer.
-  If `$BROKER_API_TOKEN` is empty, STOP and report it — do not proceed.
+- If the `broker.*` MCP tools are not available, STOP and report that the broker
+  MCP server failed to load — do NOT attempt any workaround (no curl, no ad-hoc
+  HTTP calls). A missing MCP server is a setup failure to surface, not to route around.
 
 Follow this procedure exactly:
 
