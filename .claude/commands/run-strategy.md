@@ -1,5 +1,6 @@
 ---
 description: Run the Broker trading strategy via the deployed app's MCP tools (cloud routine).
+allowed-tools: mcp__broker, WebSearch, WebFetch
 ---
 
 You are running the autonomous trading strategy for the **Broker** app, using the
