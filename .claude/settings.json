@@ -2,6 +2,13 @@
   "permissions": {
     "allow": [
       "mcp__broker",
+      "mcp__broker__get_context",
+      "mcp__broker__start_run",
+      "mcp__broker__analyze_instrument",
+      "mcp__broker__place_order",
+      "mcp__broker__cancel_order",
+      "mcp__broker__set_stop_loss",
+      "mcp__broker__finish_run",
       "WebSearch",
       "WebFetch",
       "Bash(curl:*)"
